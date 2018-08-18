@@ -1,7 +1,7 @@
 import unittest
 import json
  
-class stackoverflow_apiTestCase(unnitest.TestCase)
+Class stackoverflow_apiTestCase(unnitest.TestCase)
      """This class represents the stackoverflow_api testcase"""
 
 
