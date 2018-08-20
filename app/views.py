@@ -40,7 +40,7 @@ def create_and_show_questions():
     if request.method =='POST':
         title = request.json['title']
         desc = request.json['description']
-        owner = request.json['owner']
+        owner = request.json['email']
         response = question.create(title, owner, desc)
         return response
 
